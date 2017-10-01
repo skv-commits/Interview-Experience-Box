@@ -1,5 +1,5 @@
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -17,7 +17,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li *ngIf="!(!authService.loggedIn())" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/dashboard">Dashboard</a></li>
         <li><a *ngIf="!(!authService.loggedIn())" routerLink="/profile">Profile</a></li>
-        <li><a *ngIf="!(!authService.loggedIn())" href="#contact">Blog</a></li>
+        <li><a *ngIf="!(!authService.loggedIn())" href="#contact">Interview Feed </a></li>
         <li><a *ngIf="!authService.loggedIn()" routerLink="/login">Login</a></li>
         <li><a *ngIf="!(!authService.loggedIn())" href="#" (click)="onLogoutClick()">Logout</a></li>
         <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/register">Register</a></li>
