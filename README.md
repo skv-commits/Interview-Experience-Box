@@ -1,21 +1,3 @@
-﻿# Interview-Experience-Box
-![](coverPage.png)
-
-## This Book will be completed by Sept 1 2017 and available to buy. If you want me to sent early copy of this book then please add your name and email address in google form here [Google Form](http://goo.gl/forms/QSpxVtvsNb).
-
-[![Join the chat at https://gitter.im/nishant8BITS/123-Essential-JavaScript-Interview-Question](https://badges.gitter.im/nishant8BITS/123-Essential-JavaScript-Interview-Question.svg)](https://gitter.im/nishant8BITS/123-Essential-JavaScript-Interview-Question?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-##License
-
-This book is released under a Creative Commons Attribution-Noncommercial- No Derivative Works 3.0 United States License.
-
-What this means it that the project is free to read and use, but the license does not permit commercial use of the material (i.e you can freely print out the questions for your own use, but you can't sell it). I'm trying to best to publish all of my books in a free + purchased (if you would like to support these projects) form so I would greatly appreciate it if you would respect these terms.
-
-Copyright Nishant Kumar, 2017.
-
-## Have question for me ?
-[Ask me @nishant kumar](https://www.codementor.io/nihantanu/) 
-
 # 123-JavaScript-Interview-Question
 ## 1. Difference between `undefined` and `not defined` in JavaScript
 > In JavaScript if you try to use a variable that doesn't exist and has not been declared, then JavaScript will throw an error `var name is not defined` and the script will stop execute thereafter. But If you use `typeof undeclared_variable` then it will return `undefined`.
