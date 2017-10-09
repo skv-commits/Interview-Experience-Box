@@ -12,7 +12,7 @@ export class SearchFilter implements PipeTransform {
                 return true;
              }
            }
-           return false;
+           return true;
         });
     }
 }
