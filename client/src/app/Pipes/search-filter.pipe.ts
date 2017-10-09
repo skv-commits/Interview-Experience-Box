@@ -9,7 +9,7 @@ export class SearchFilter implements PipeTransform {
         return items.filter(item => {
            for (const key in item ) {
              if (('' + item[key]).includes(criteria)){
-                return true;
+                return false;
              }
            }
            return false;
