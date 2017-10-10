@@ -16,7 +16,6 @@ import { FlashMessagesModule } from 'angular2-flash-messages';
 import { AuthGuard } from './Guards/auth.guard';
 import { NotAuthGuard } from './Guards/notAuth.guard';
 import { BlogComponent } from './components/blog/blog.component';
-import { SearchFilter } from './Pipes/search-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { SearchFilter } from './Pipes/search-filter.pipe';
     RegisterComponent,
     LoginComponent,
     ProfileComponent,
-    BlogComponent,
-    SearchFilter
+    BlogComponent
   ],
   imports: [
     BrowserModule,
