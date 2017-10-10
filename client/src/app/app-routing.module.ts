@@ -17,7 +17,7 @@ const appRoutes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent, // Dashboard Route,
-    canActivate: [AuthGuard] // User must be logged in to view this route
+   // canActivate: [AuthGuard] // User must be logged in to view this route
   },
   {
     path: 'register',
