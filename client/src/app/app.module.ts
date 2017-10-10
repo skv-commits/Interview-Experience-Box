@@ -16,7 +16,10 @@ import { FlashMessagesModule } from 'angular2-flash-messages';
 import { AuthGuard } from './Guards/auth.guard';
 import { NotAuthGuard } from './Guards/notAuth.guard';
 import { BlogComponent } from './components/blog/blog.component';
+<<<<<<< HEAD
 
+=======
+>>>>>>> f9acf07cedd473b6493e22fd3db6ef366efcaa44
 
 @NgModule({
   declarations: [
@@ -27,8 +30,12 @@ import { BlogComponent } from './components/blog/blog.component';
     RegisterComponent,
     LoginComponent,
     ProfileComponent,
+<<<<<<< HEAD
     BlogComponent,
 
+=======
+    BlogComponent
+>>>>>>> f9acf07cedd473b6493e22fd3db6ef366efcaa44
   ],
   imports: [
     BrowserModule,
