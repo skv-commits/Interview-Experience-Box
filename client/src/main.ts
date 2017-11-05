@@ -8,5 +8,7 @@ if (environment.production) {
   enableProdMode();
 }
 
+// first step of bootstrap process
+
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));

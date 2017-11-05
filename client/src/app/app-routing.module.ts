@@ -9,6 +9,8 @@ import {EditBlogComponent} from './components/blog/edit-blog/edit-blog.component
 import {BlogComponent} from './components/blog/blog.component';
 import {AuthGuard} from './Guards/auth.guard';
 import {NotAuthGuard} from './Guards/notAuth.guard';
+import { DeleteBlogComponent } from './components/blog/delete-blog/delete-blog.component';
+
 
 // Our Array of Angular 2 Routes
 const appRoutes : Routes = [
@@ -41,6 +43,11 @@ const appRoutes : Routes = [
     path: 'edit-blog/:id',
     component: EditBlogComponent, // Edit Blog ROute
     canActivate: [AuthGuard] // User must be logge din to view this route
+  },
+  {
+    path: 'delete-blog/:id',
+    component: DeleteBlogComponent, // Delete Blog Route
+    canActivate: [AuthGuard] // User must be logged in to view this route
   },
   {
     path: '**',

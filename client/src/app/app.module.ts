@@ -17,6 +17,8 @@ import { AuthGuard } from './Guards/auth.guard';
 import { NotAuthGuard } from './Guards/notAuth.guard';
 import { BlogComponent } from './components/blog/blog.component';
 import { EditBlogComponent } from './components/blog/edit-blog/edit-blog.component';
+import { DeleteBlogComponent } from './components/blog/delete-blog/delete-blog.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 @NgModule({
@@ -30,6 +32,7 @@ import { EditBlogComponent } from './components/blog/edit-blog/edit-blog.compone
     ProfileComponent,
     BlogComponent,
     EditBlogComponent,
+    DeleteBlogComponent,
 
   ],
   imports: [
@@ -38,7 +41,8 @@ import { EditBlogComponent } from './components/blog/edit-blog/edit-blog.compone
     ReactiveFormsModule,
     FormsModule,
     AppRoutingModule,
-    FlashMessagesModule
+    FlashMessagesModule,
+    NgxPaginationModule
   ],
   providers: [AuthService, AuthGuard, NotAuthGuard, BlogService],
   bootstrap: [AppComponent]
