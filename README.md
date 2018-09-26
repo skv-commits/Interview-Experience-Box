@@ -245,14 +245,16 @@ console.log('three');
 ```
 
 
-* Compose function Example*
+* Compose function Example?*
 
-```const compose = (...funcs) => (...args)=> funcs.reduceRight( (a, b) => {
+```javascript
+
+   const compose = (...funcs) => (...args)=> funcs.reduceRight( (a, b) => {
       a = a === null ? a = b(...args) : a = b(a);
       return a;
     }, null);
 
-const pipe = (...funcs) => (...args)=> funcs.reduce( (a, b) => {
+  const pipe = (...funcs) => (...args)=> funcs.reduce( (a, b) => {
       a = a === null ? a = b(...args) : a = b(a);
       return a;
     }, null);
