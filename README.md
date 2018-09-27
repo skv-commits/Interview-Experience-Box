@@ -245,7 +245,7 @@ console.log('three');
 ```
 
 
-* Compose function Example?*
+*Question: Compose & Pipe function Example *
 
 ```javascript
 
