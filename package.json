@@ -1,10 +1,10 @@
 {
   "name": "exorbox",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000I\u0000n\u0000t\u0000e\u0000r\u0000v\u0000i\u0000e\u0000w\u0000-\u0000E\u0000x\u0000p\u0000e\u0000r\u0000i\u0000e\u0000n\u0000c\u0000e\u0000-\u0000B\u0000o\u0000x\u0000\r\u0000 \u0000",
+  "description": "Demo APP",
   "main": "index.js",
   "scripts": {
-    "start": " cd client && ng build && cd.. && nodemon index.js"
+    "start": " cd client && ng build && cd .. && nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,11 +15,15 @@
   "bugs": {
     "url": "https://github.com/cyberbot143/Interview-Experience-Box/issues"
   },
+  "engines": {
+    "node": ">12"
+  },
   "homepage": "https://github.com/cyberbot143/Interview-Experience-Box#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
+    "esm": "^3.2.25",
     "express": "^4.16.1",
     "jsonwebtoken": "^8.0.1",
     "mongoose": "^4.11.14"
